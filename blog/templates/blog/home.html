@@ -5,6 +5,7 @@
         <article class="media content-section">
             <div class="media-body">
                 <div class="article-metadata">
+                    <img width="40px" class="rounded mb-1" src="{{ post.author.profile.image.url }}" alt="">
                     <a class="mr-2 text-decoration-none" href="#">{{ post.author }}</a>
                     <small class="text-muted">{{ post.datePosted | date:"d F Y, h:i a"  }}</small>
                 </div>
